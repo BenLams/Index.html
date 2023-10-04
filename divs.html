@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working with Divs</title>
+
+<!--internal css-->
+
+    <style>
+        .parentdiv{
+            background-color: gray;
+            width:fit-content;
+            height: 50%;
+            padding: 20px;
+            padding-bottom: 10%;
+            padding-left: 10%;
+            margin: auto;
+        }
+
+        .childone{
+            background-color: blue;
+            width:fit-content;
+            padding: 40px;
+            margin: 10px;
+            float: left;
+            height: 90px;
+        }
+
+        .childtwo{
+            background-color: rgb(34, 189, 178);
+            width:fit-content;
+            margin: 10px;
+            float: right;
+            padding: 40px;
+           
+        }
+
+        .parentdiv2{
+            background-color: aquamarine;
+            width: 90%;
+            height: 50%;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            margin-top: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="parentdiv">
+       <h1>Working with Divs</h1>
+
+       <!--Parent live with two nested divs-->
+
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+         Impedit magni earum omnis ab aspernatur labore in, 
+         architecto non facilis voluptates officiis asperiores eveniet, ad explicabo quae itaque corrupti consequuntur? Natus.
+        </p>
+    
+
+    <!--nested dive-->
+      <div class="childone">
+        <h1>Div 1</h1>
+      </div>
+      <div class="childtwo">
+        <h2>Div 2</h2>
+      </div>
+</div>
+
+      <div class="parentdiv2">
+        <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Voluptatibus, veniam similique tempora dolore sint perspiciatis? 
+            Necessitatibus quam sequi, nesciunt, a soluta quas accusamus molestias numquam 
+            mollitia voluptatibus praesentium eaque eligendi?
+        </h3>
+      </div>
+
+    
+    
+</body>
+</html>
